@@ -1,0 +1,25 @@
+{
+    "id": "53B795BC82093CC6F24A84C7319DA488",
+    "classes": {
+		"0": {
+			"name": "com.example.Foo",
+			"path": "com/example/Foo.class",
+			"outputFolder": "target/classes",
+			"hash": "5C2D0BE4"
+		},
+		"1": {
+			"name": "com.example.FooTest",
+			"path": "com/example/FooTest.class",
+			"outputFolder": "target/test-classes",
+			"hash": "EEFCFC2C"
+		}
+	},
+    "tests": [
+		{
+			"class": 1,
+			"tags": ["PASSED"],
+			"coveredClasses": [0,1],
+			"executionId": "A22E19E1920143D1F1356AD8F1E361C5"
+		}
+    ]
+}

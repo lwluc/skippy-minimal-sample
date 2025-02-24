@@ -1,5 +1,6 @@
 package com.example;
 
+import io.skippy.junit5.PredictWithSkippy;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.NullAndEmptySource;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -7,6 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
+@PredictWithSkippy
 class FooTest {
 
     private final Foo classUnderTest = new Foo();
